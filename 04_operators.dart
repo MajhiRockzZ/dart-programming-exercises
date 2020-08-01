@@ -22,4 +22,14 @@ void main() {
   num += 1;
   num -= 1;
   print(num);
+
+  // logical && and logical ||
+  if (num > 200 && num < 203) {
+    print('200 to 202');
+  }
+
+  // != Not Equal
+  if (num != 100) {
+    print('num is not equal to 100');
+  }
 }
