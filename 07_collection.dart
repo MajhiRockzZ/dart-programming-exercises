@@ -25,7 +25,8 @@ void main() {
 
   print("================================");
   // Set
-  var halogens = {'fluorine', 'chlorine', 'fluorine'};
+  // var halogens = {'fluorine', 'chlorine', 'fluorine'};
+  var halogens = {'fluorine', 'chlorine'};
 
   for (var n in halogens) {
     print(n);
